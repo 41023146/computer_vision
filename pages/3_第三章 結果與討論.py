@@ -24,7 +24,10 @@ with tab1:
 
 with tab2:
     st.header("3.2 ROS/AMR之深度學習影像移動控制結果")
-    st.markdown("##### 測試中使用鍵盤控制機器人移動同時建構地圖")
+    st.markdown("##### 訓練完成可辨識方向鍵號之結果影片")
+    sample_video = open("files/3_2_01.mp4", "rb").read()
+    # Display Video using st.video() function
+    st.video(sample_video, start_time = 0)
 
 with tab3:
     st.header("3.3 ultralytics YOLO與SAM物件偵測與分割結果")

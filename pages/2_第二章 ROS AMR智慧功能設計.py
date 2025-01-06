@@ -519,9 +519,7 @@ with tab5:
     st.video(sample_video, start_time = 10)
     '''
     st.code(code, language='python')
-    sample_video = open("files/red_rock.mov", "rb").read()
-    # Display Video using st.video() function
-    st.video(sample_video, start_time = 10)
+
     st.divider()
     st.write("7.添加分隔頁")
     code = '''
