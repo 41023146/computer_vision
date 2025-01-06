@@ -28,6 +28,15 @@ with tab2:
     sample_video = open("files/3_2_01.mp4", "rb").read()
     # Display Video using st.video() function
     st.video(sample_video, start_time = 0)
+    st.markdown("##### 1.右轉")
+    st.image("files/3_2_01.png")
+    st.markdown("##### 2.左轉")
+    st.image("files/3_2_02.png")
+    st.markdown("##### 3.迴轉")
+    st.image("files/3_2_03.png")
+    st.markdown("##### 4.前進")
+    st.image("files/3_2_04.png")
+    
 
 with tab3:
     st.header("3.3 ultralytics YOLO與SAM物件偵測與分割結果")
@@ -73,6 +82,8 @@ with tab5:
     sample_video = open("files/3_5_01.mp4", "rb").read()
     # Display Video using st.video() function
     st.video(sample_video, start_time = 0)
+    
+    st.markdown("##### 網業網址：https://computervision-mk5fwf8sxraff5a5iffgaz.streamlit.app/ ")
 
 
 
