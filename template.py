@@ -31,5 +31,3 @@ st.image("files/NFU.png")
 # Caption
 st.caption("""(這是國立虎尾科技大學之校門!)""")
 
-
-
